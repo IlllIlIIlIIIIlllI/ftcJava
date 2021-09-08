@@ -1,0 +1,22 @@
+Configuration
+roombaArm
+  Expansion Hub
+    motors
+      0 NeveRest 40 Gearmotor
+      "elbow"
+      1 NeveRest 40 Gearmotor
+      "shoulder"
+      
+  Control Hub
+    motors
+      0 NeveRest 40 Gearmotor
+      "leftFront"
+      1 NeveRest 40 Gearmotor
+      "leftBack"
+      2 NeveRest 40 Gearmotor
+      "rightFront"
+      3 NeveRest 40 Gearmotor
+      "rightBack"
+    servos
+      0 servo
+       "claw"
